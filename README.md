@@ -16,6 +16,7 @@ This project is directly based on those projects:
     * http://code.drewwilson.com/entry/autosuggest-jquery-plugin
 
 ## Installation
+* If django-taggit isn't installed yet, add 'taggit' to your INSTALLED_APPS in your project settings
 * Add "taggit_autosuggest_select2" to your INSTALLED_APPS in your project settings
 * Run "python manage.py collectstatic" in your django site dir.
 * Add the following line to your project's urls.py file:
